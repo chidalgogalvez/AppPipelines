@@ -64,7 +64,7 @@ pipeline {
                 nexusUrl: 'nexus:8081',
                 groupId: 'com.kibernumacademy.miapp',
                 version: '0.0.1-SNAPSHOT',
-                repository: 'reponexus',
+                repository: 'nexus-repo',
                 credentialsId: 'nexuscredenciales',
                 artifacts: [
                     [artifactId: 'MiApp',
