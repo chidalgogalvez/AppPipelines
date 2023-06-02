@@ -2,7 +2,7 @@
 <modelVersion>4.0.0</modelVersion>
 <groupId>com.kibernumacademy.miapp</groupId>
 <artifactId>MiApp</artifactId>
-<version>1.0.0</version>
+<version>0.0.1</version>
 <name>MiApp</name>
 <description>Esta es una aplicacion de demostración para aprender maven Actividad 4</description>
 

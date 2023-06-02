@@ -69,7 +69,7 @@ pipeline {
                 artifacts: [
                     [artifactId: 'MiApp',
                     classifier: '',
-                    file: 'target/MiApp-1.0.0.jar',
+                    file: 'target/MiApp-0.0.1.jar',
                     type: 'jar'],
                     [artifactId: 'MiApp',
                     classifier: '',
