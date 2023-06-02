@@ -62,7 +62,7 @@ pipeline {
                 nexusVersion: 'nexus3',
                 protocol: 'http',
                 nexusUrl: 'nexus:8081',
-                groupId: 'cl.awakelab.junitapp',
+                groupId: 'com.kibernumacademy.miapp',
                 version: '0.0.1-SNAPSHOT',
                 repository: 'maven-snapshots',
                 credentialsId: 'nexuscredenciales',
