@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Get GitHub') {
             steps {
-                git branch: 'main', url: 'https://github.com/Calegria25/AppPipelines.git'
+                git branch: 'main', url: 'https://github.com/chidalgogalvez/AppPipelines.git'
             }
         }
         stage('Generate artifacts') {
