@@ -64,7 +64,7 @@ pipeline {
                 nexusUrl: 'nexus:8081',
                 groupId: 'com.kibernumacademy.miapp',
                 version: '0.0.1-SNAPSHOT',
-                repository: 'maven-snapshots',
+                repository: 'reponexus',
                 credentialsId: 'nexuscredenciales',
                 artifacts: [
                     [artifactId: 'MiApp',
