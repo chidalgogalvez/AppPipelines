@@ -1,3 +1,8 @@
+def COLOR_MAP = [
+  "good",
+  "ganger"
+]
+
 pipeline {
     agent any
     tools {
@@ -84,7 +89,7 @@ pipeline {
     always {
         echo 'Slack Notification'
         slackSend channel: '#integracion',
-//                color: COLOR_MAP[currentBuild.currentResult],
+        color: COLOR_MAP[currentBuild.currentResult],
         message: "*${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n More Info at: ${env.BUILD_URL}"
 //                message: “Fin de Stage Get Github”
       }
