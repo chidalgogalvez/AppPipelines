@@ -1,6 +1,6 @@
 def COLOR_MAP = [
   "good",
-  "ganger"
+  "danger"
 ]
 
 pipeline {
