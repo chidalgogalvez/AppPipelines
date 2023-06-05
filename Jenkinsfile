@@ -66,7 +66,7 @@ pipeline {
             nexusArtifactUploader(
                 nexusVersion: 'nexus3',
                 protocol: 'http',
-                nexusUrl: 'nexus:8081',
+                nexusUrl: 'localhost:8081',
                 groupId: 'com.kibernumacademy.miapp',
                 version: '1.0.0',
                 repository: 'nexus-repo',
